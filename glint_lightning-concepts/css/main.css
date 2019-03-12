@@ -104,6 +104,23 @@ a:hover, a:active {
 }
 
 
+.a1 {
+    color: #757575;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.a1:hover, a1:focus, a1:active {
+    color: #39b54a;
+}
+
+.a1:hover, a1:active {
+    outline: 0;
+}
+
+
+
+
 
 /* ===================================================================
  * # typography & general theme styles
@@ -832,8 +849,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #8ec441;
+    border-color: #8ec441;
     color: #FFFFFF;
 }
 

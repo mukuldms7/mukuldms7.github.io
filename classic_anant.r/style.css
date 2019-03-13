@@ -236,7 +236,7 @@ input:-webkit-autofill:focus {
     background-color: transparent;
     -webkit-transition: 0.3s;
     transition: 0.3s;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(227, 65, 36, 0.5);
 }
 
 .site2 .mainmenu-area,
@@ -351,7 +351,7 @@ a.scrolldown {
 .header-area .header-text .header-title {
     color: #FFF;
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: 900;
     letter-spacing: 2px;
 }

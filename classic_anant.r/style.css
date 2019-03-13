@@ -245,7 +245,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area #mainmenu ul.nav.navbar-nav li a {
-    color: #ffffff;
+    color: gray;
     background: none;
     text-transform: uppercase;
     font-weight: 400;
@@ -349,7 +349,7 @@ a.scrolldown {
 }
 
 .header-area .header-text .header-title {
-    color: #ffffff;
+    color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 80px;
     font-weight: 900;

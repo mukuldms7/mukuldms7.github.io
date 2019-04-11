@@ -134,7 +134,7 @@ input:-webkit-autofill:focus {
 }
 
 .section-padding {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .gray-bg {
@@ -241,7 +241,7 @@ input:-webkit-autofill:focus {
 
 .site2 .mainmenu-area,
 .mainmenu-area.affix {
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 .mainmenu-area #mainmenu ul.nav.navbar-nav li a {

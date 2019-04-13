@@ -128,6 +128,10 @@
 
     // start mixitup plugin in portfolio section //
     $("#filtering").mixItUp();
+    
+    $("#filtering1").mixItUp();
+    
+    $("#filtering2").mixItUp();
 
 
     /*--------------------

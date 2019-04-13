@@ -672,6 +672,105 @@ a.scrolldown {
 }
 
 
+
+/*-- 12.5. FIlter-Box --*/
+
+.filter-box {
+    position: relative;
+}
+
+.filter-box .filter-hover1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    padding: 50px;
+    color: #ffffff;
+    opacity: 0;
+    overflow: hidden;
+    -webkit-transition: 0.3s;
+    transition: 0.3s
+}
+
+.filter-box:hover .filter-hover1 {
+    opacity: 1;
+}
+
+.filter-box .filter-hover1 h5 {
+    color: #ffffff;
+    position: relative;
+    padding: 10px 0;
+}
+
+.filter-box .filter-hover1 h5:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 2px;
+    background-color: #ffffff;
+}
+
+.site2 .filter-box .filter-hover1 h5 {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+
+.filter-box .filter-hover1:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #c2e9fb;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%, #f0715d), to(#e34124));
+    background: linear-gradient(to bottom, #f0715d 1%, #e34124 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f0715d', endColorstr='#e34124', GradientType=0);
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.filter-box .filter-hover1 .filter-popup {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px;
+    margin-top: -50px;
+}
+
+.filter-box .filter-hover1 .filter-popup:before,
+.filter-box .filter-hover1 .filter-popup:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.filter-box .filter-hover1 .filter-popup:before {
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.filter-box .filter-hover1 img {
+    width: 100%;
+}
+
+
+
 /*-- 13. Team-Area --*/
 
 .team-box {

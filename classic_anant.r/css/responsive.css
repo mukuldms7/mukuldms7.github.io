@@ -77,10 +77,10 @@
     }
     .mainmenu-area #mainmenu {
         padding: 0 30px;
-        background: #87b5ff;
-        background: -webkit-gradient(linear, left top, right top, from(#87b5ff), to(#99d4ef));
-        background: linear-gradient(to right, #87b5ff 0%, #99d4ef 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87b5ff', endColorstr='#99d4ef', GradientType=1);
+        background: #e34124;
+        background: -webkit-gradient(linear, left top, right top, from(#e34124), to(#f0715d));
+        background: linear-gradient(to right, #e34124 0%, #f0715d 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e34124', endColorstr='#f0715d', GradientType=1);
         text-align: center;
     }
     .mainmenu-area .navbar-toggle {

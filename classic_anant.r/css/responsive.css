@@ -1,6 +1,6 @@
 /* Medium Layout: 1280px. */
 
-@media only screen and (min-width: 320px) and (max-width: 1200px) {
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
 
     .mainmenu-area #mainmenu ul.nav.navbar-nav {
         text-align: center;
@@ -13,7 +13,7 @@
 
 /* Tablet Layout: 768px. */
 
-@media only screen and (min-width: 320px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .prices [class|='col'] {
         padding: 0 15px !important;
         margin: auto !important;
@@ -163,4 +163,4 @@
 
 /* Wide Mobile Layout: 480px. */
 
-@media only screen and (min-width: 320px) and (max-width: 767px) {}
+@media only screen and (min-width: 480px) and (max-width: 767px) {}

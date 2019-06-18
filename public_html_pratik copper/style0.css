@@ -1,0 +1,46 @@
+.size-wrap p.size-desc .size:hover {
+            color: #B37463; }
+
+        .btnn {
+        border: none;
+        outline: none;
+        padding: 10px 16px;
+        background-color: #fff;
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+
+    /* Style the active class, and buttons on mouse-over */
+    button.active, .btnn:hover {
+        background-color: #B37463;
+        color: white;
+    }
+    .product-detail-wrap .thumb-nail .thumb-img {
+            width: 30%;
+        }
+    /*.product-detail-wrap1 .thumb-nail1 .thumb-img1 {
+            width: 18%;
+        }*/
+		  
+		  #quantity{
+			  min-width: 50px !important;
+		  }
+
+@media screen and (max-width : 1920px){
+          .mobile{
+          /*visibility:hidden; PC */
+              display:none;
+          }
+        }
+    
+        @media screen and (max-width : 906px){
+         .desk{
+          /*visibility:hidden;*/
+             display:none;
+          }
+         .mobile{
+          /*visibility:visible;*/
+             display: block;
+          }
+             
+        }

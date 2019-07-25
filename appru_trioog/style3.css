@@ -271,8 +271,8 @@ a:hover, a:active {
 }
 
 .hero-slider .swiper-pagination-bullet-active {
-    color: #18a3eb;
-    border-color: #18a3eb;
+    color: #9c814c;
+    border-color: #9c814c;
 }
 
 @media screen and (max-width: 1400px) {

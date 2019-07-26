@@ -8896,7 +8896,7 @@ h1, h2, h3, h4, h5,
   background: #9c814c; }
   @media (min-width: 768px) {
     .ftco-services .nav-link-wrap {
-      margin-bottom: -60px;
+      margin-bottom: 0px;
       z-index: 1; } }
   @media (max-width: 767.98px) {
     .ftco-services .nav-link-wrap {

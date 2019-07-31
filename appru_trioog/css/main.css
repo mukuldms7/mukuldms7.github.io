@@ -2007,14 +2007,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     right: 36%;
     width: 68%;
     height: 68%;
-    background: -webkit-gradient(linear, left top, right bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #f8fcff), to(#fcfdff));
+    /*background: -webkit-gradient(linear, left top, right bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #f8fcff), to(#fcfdff));
     background: -webkit-linear-gradient(top left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -o-linear-gradient(top left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -webkit-linear-gradient(to bottom right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -moz-linear-gradient(to bottom right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -ms-linear-gradient(to bottom right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
-    background: -o-linear-gradient(to bottom right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
+    background: -o-linear-gradient(to bottom right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);*/
     z-index: -1; }
     @media (max-width: 991px) {
       .about-area .container:after {
@@ -2079,10 +2079,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     background: -webkit-linear-gradient(top left, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: -o-linear-gradient(top left, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);*/
-    background: -webkit-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
+    /*background: -webkit-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: -moz-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: -ms-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
-    background: -o-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%); }
+    background: -o-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%); }*/
     @media (max-width: 991px) {
       .feature-area:after {
         display: none; } }
@@ -2153,14 +2153,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     z-index: -1;
     width: 340px;
     height: 340px;
-    background: -webkit-gradient(linear, right top, left bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #46dbf9), to(#204be3));
+    /*background: -webkit-gradient(linear, right top, left bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #46dbf9), to(#204be3));
     background: -webkit-linear-gradient(top right, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
     background: -o-linear-gradient(top right, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
     background: linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
     background: -webkit-linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
     background: -moz-linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
     background: -ms-linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%);
-    background: -o-linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%); }
+    background: -o-linear-gradient(to bottom left, transparent 0%, transparent 50%, #46dbf9 50%, #204be3 100%); }*/
     @media (max-width: 991px) {
       .testimonials-area .container:before {
         display: none; } }
@@ -2215,14 +2215,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     left: 31%;
     width: 69%;
     height: 188%;
-    background: -webkit-gradient(linear, right top, left bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #f8fcff), to(#fcfdff));
+    /*background: -webkit-gradient(linear, right top, left bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #f8fcff), to(#fcfdff));
     background: -webkit-linear-gradient(top right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -o-linear-gradient(top right, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: linear-gradient(to bottom left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -webkit-linear-gradient(to bottom left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -moz-linear-gradient(to bottom left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
     background: -ms-linear-gradient(to bottom left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
-    background: -o-linear-gradient(to bottom left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);
+    background: -o-linear-gradient(to bottom left, transparent 0%, transparent 50%, #f8fcff 50%, #fcfdff 100%);*/
     z-index: -1; }
     @media (max-width: 991px) {
       .screenshot-area .container:after {
@@ -2255,14 +2255,14 @@ body.mobile-nav-active #mobile-nav-toggle {
     z-index: -1;
     width: 340px;
     height: 340px;
-    background: -webkit-gradient(linear, left top, right bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #9c814c), to(#ffea8f));
+    /*background: -webkit-gradient(linear, left top, right bottom, from(transparent), color-stop(50%, transparent), color-stop(50%, #9c814c), to(#ffea8f));
     background: -webkit-linear-gradient(top left, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: -o-linear-gradient(top left, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: -webkit-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: -moz-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
     background: -ms-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%);
-    background: -o-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%); }
+    background: -o-linear-gradient(to bottom right, transparent 0%, transparent 50%, #9c814c 50%, #ffea8f 100%); }*/
     @media (max-width: 991px) {
       .pricing-area:after {
         display: none; } }

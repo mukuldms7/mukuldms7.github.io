@@ -50,7 +50,7 @@
 	  </nav>
     <!-- END nav -->
 
-    <div class="hero-wrap js-fullheight" id="home">
+    <div class="hero-wrap js-fullheight desk" id="home">
       <div class="overlay"></div>
       <div class="container-fluid px-0">
       	<div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
@@ -67,6 +67,25 @@
 	    	</div>
       </div>
     </div>
+    <div class="hero-wrap js-fullheight mobile" id="home">
+      <div class="overlay"></div>
+      <div class="container-fluid px-0">
+      	<div class="row d-md-flex no-gutters slider-text align-items-center js-fullheight justify-content-end">
+	      	<img class="one-third js-fullheight align-self-end order-md-last img-fluid" alt="">
+	      	<!--<img class="one-third js-fullheight align-self-end order-md-last img-fluid" src="images/undraw_pair_programming_njlp.svg" alt="">-->
+	        <div class="one-forth d-flex align-items-center ftco-animate js-fullheight">
+	        	<div class="text mt-5">
+	               <!--<span class="subheading">TRIOOG, is a Personal Alert Mode Security System that uses a tap-activated wearable device.</span>-->
+	            <!--<h1 class="mb-3"><span>Design,</span> <span>Development,</span> <span>Hosting</span></h1>-->
+                <p>TRIOOG empowers You to notify your emergency contacts with an SOS Alert of your real-time location as well as audio/video/photo uploads of the surroundings when the SOS Button is activated.</p>
+	            <!--<p><a href="#" class="btn btn-primary px-4 py-3">Register Your Interest</a></p>-->
+	          </div>
+	        </div>
+	    	</div>
+      </div>
+    </div>
+
+    
     
     <section class="ftco-section ftco-no-pt ftc-no-pb" style="padding-top: 100px;">
     	<div class="container">
@@ -339,7 +358,7 @@
                 <input type="tel" class="form-control" placeholder="Your Contact Number">
               </div>
               <div class="form-group">
-                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Suggestions"></textarea>
+                <textarea name="" id="" cols="30" rows="7" class="form-control" placeholder="Suggestions - Help Us Build The Best Product For You"></textarea>
               </div>
               <div class="form-group">
                 <input type="submit" value="Register Your Interest" class="btn btn-primary py-3 px-5">
@@ -390,6 +409,41 @@
     </footer>
     
   
+    <style>
+        @media screen and (max-width : 1920px){
+              .mobile{
+              /*visibility:hidden; PC */
+                  display:none;
+              }
+                .desk{
+                    display: block;
+                }
+                 .slicky{
+              position: relative;
+            }
+                 .img-responsive{
+                width:75%;
+                height:75%;
+            }
+            }
+             
+            @media screen and (max-width : 906px){
+             .desk{
+              /*visibility:hidden;*/
+                 display:none;
+              }
+             .mobile{
+              /*visibility:visible;*/
+                 display: block;
+              }
+                .whole{
+                    position: relative;
+                    top:100px;
+                }
+        }
+           
+        </style>
+
 
   <!-- loader -->
   <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>

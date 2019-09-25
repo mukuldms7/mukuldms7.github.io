@@ -12,4 +12,5 @@ $MESSAGE_BODY .= "Suggestions: ".nl2br($_POST["suggestions"])." \n";
 mail($ToEmail,$EmailSubject,$MESSAGE_BODY,"From:".$from);
 
 header('Location: index.html#Sucessful');
+echo "Thank You!" . " -" . "<a href='index.html'>Return Home</a>";
 ?>

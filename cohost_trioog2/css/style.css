@@ -8414,7 +8414,7 @@ h1, h2, h3, h4, h5,
           .hero-wrap .slider-text .one-forth .text {
             position: absolute;
             top: 50%;
-            left: 0;
+            /*left: 0;*/
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
@@ -8425,16 +8425,16 @@ h1, h2, h3, h4, h5,
     .hero-wrap .slider-text .subheading {
       color: #000;
       font-weight: 700;
-      font-size: 14px;
+      font-size: 45px;
       letter-spacing: 4px;
       text-transform: uppercase;
       display: inline-block;
-      color: #38d39f; }
+      color: #d4ab3b; }
     .hero-wrap .slider-text .text {
       position: relative;
       z-index: 1; }
     .hero-wrap .slider-text h1 {
-      font-size: 60px;
+      font-size: 43px;
       color: #000;
       line-height: 1.2;
       font-weight: 700; }

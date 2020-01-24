@@ -9839,7 +9839,7 @@ textarea.form-control {
         width: 50px;
         border-radius: 50%; }
     .comment-list li .comment-body {
-      float: right;
+      /*float: right;*/
       width: calc(100% - 80px); }
       .comment-list li .comment-body h3 {
         font-size: 18px;
@@ -9851,7 +9851,7 @@ textarea.form-control {
         color: #d4ab3b;
         margin-bottom: 15px; }
       .comment-list li .comment-body .reply {
-        padding: 5px 10px;
+        padding: 10px 10px;
         background: whitesmoke;
         color: #000;
         text-transform: uppercase;
@@ -9861,7 +9861,7 @@ textarea.form-control {
         border-radius: 4px; }
         .comment-list li .comment-body .reply:hover {
           color: #fff;
-          background: black; }
+          background: #d4ab3b; }
 
 .search-form {
   background: #fafafa;

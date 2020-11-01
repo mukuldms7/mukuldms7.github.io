@@ -65,7 +65,7 @@ figure {
 
 ::selection {
   color: #fff;
-  background: #ff3c55; }
+  background: #296d98; }
 
 #colorlib-page {
   width: 100%;
@@ -843,7 +843,7 @@ body.offcanvas {
     top: 0;
     left: 0;
     right: 0;
-    background: rgba(0, 0, 0, 0.4); }
+    background: rgba(0, 0, 0, 0.6); }
   .colorlib-counters .icon {
     width: 100px;
     height: 100px;
@@ -1000,18 +1000,18 @@ body.offcanvas {
     outline: none !important; }
 
 .btn-primary {
-  background: #ff3c55;
+  background: #296d98;
   color: #fff;
-  border: 2px solid #ff3c55; }
+  border: 2px solid #296d98; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background: #ffc91a !important;
-    border-color: #ffc91a !important; }
+    background: transparent !important;
+    border-color: #fff !important; }
   .btn-primary.btn-outline {
     background: transparent;
-    color: #ff3c55;
-    border: 2px solid #ff3c55; }
+    color: #296d98;
+    border: 2px solid #296d98; }
     .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
-      background: #ff3c55;
+      background: #296d98;
       color: #fff; }
 
 .btn-success {

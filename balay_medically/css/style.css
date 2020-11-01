@@ -287,7 +287,7 @@ figure {
           bottom: 0;
           right: -15px;
           padding: 30px;
-          background: rgba(41, 109, 152, 0.7); 
+          background: rgba(41, 109, 152, 0.8); 
             }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .desc {

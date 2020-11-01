@@ -22,12 +22,12 @@ body {
       font-size: 16px; } }
 
 a {
-  color: #ff3c55;
+  color: #474a4d;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
   a:hover, a:active, a:focus {
-    color: #ff3c55;
+    color: #474a4d;
     outline: none;
     text-decoration: none !important; }
 
@@ -341,8 +341,9 @@ figure {
             border: 1px solid #fff;
             background: #fff !important; }
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn.btn-learn:hover {
+              color: #fff !important;
               background: transparent !important;
-              border: 1px solid #000 !important; }
+              border: 1px solid #fff !important; }
           @media screen and (max-width: 768px) {
             #colorlib-hero .flexslider .slider-text > .slider-text-inner .btn {
               width: 100%; } }
@@ -622,7 +623,7 @@ body.offcanvas {
   .colorlib-feature.colorlib-feature-sm .colorlib-text {
     margin-top: 30px; }
   .colorlib-feature.colorlib-feature-sm .colorlib-icon i {
-    color: #ff3c55;
+    color: #474a4d;
     font-size: 40px; }
     @media screen and (max-width: 1200px) {
       .colorlib-feature.colorlib-feature-sm .colorlib-icon i {

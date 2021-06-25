@@ -1,5 +1,6 @@
 <?php
-    $to = '	pragati_engineering@yahoo.co.in';
+    $to = '	webmakersgoa@gmail.com';
+    /*$to = '	pragati_engineering@yahoo.co.in';*/
     $firstname = $_POST["name"];
     $email= $_POST["email"];
     $subject= $_POST["subject"];

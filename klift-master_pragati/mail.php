@@ -1,32 +1,16 @@
-<?php
-    $to = '	webmakersgoa@gmail.com';
-    /*$to = '	pragati_engineering@yahoo.co.in';*/
-    $firstname = $_POST["name"];
-    $email= $_POST["email"];
-    $subject= $_POST["subject"];
-    $text= $_POST["message"];
-    
+<?php 
+/*mail($ToEmail, $EmailSubject, $MESSAGE_BODY, $mailheader) or die ("Failure"); */
+
+$from="pragati_engineering@yahoo.co.in"; 
+$ToEmail = 'pragati_engineering@yahoo.co.in';
+$EmailSubject = $_POST["subject"];
+$MESSAGE_BODY = "Name: ".$_POST["name"]." \n";  
+$MESSAGE_BODY .= "Email: ".$_POST["email"]." \n"; 
+$MESSAGE_BODY .= "Message: ".nl2br($_POST["message"])." \n"; 
+
+mail($ToEmail,$EmailSubject,$MESSAGE_BODY,"From:".$from);
 
 
-    $headers = 'MIME-Version: 1.0' . "\r\n";
-    $headers .= "From: " .$email. "\r\n"; // Sender's E-mail
-    $headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-    $message ='<table style="width:100%">
-        <tr>
-            <td>Name : '.$firstname.'</td>
-        </tr>
-        <tr><td>Email: '.$email.'</td></tr>
-        <tr><td>Email: '.$subject.'</td></tr>
-        <tr><td>Message: '.$text.'</td></tr>
-        
-    </table>';
-
-    if (@mail($to, $email, $message, $headers))
-    {
-        echo 'The message has been sent.';
-    }else{
-        echo 'failed';
-    }
+header('Location: index.html#Sucessful');
 
 ?>

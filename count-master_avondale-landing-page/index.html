@@ -51,7 +51,7 @@
 
             <div class="row home-content__main">
 
-                <div class="col-twelve home-content__text pull-right" style="padding-top: 50px;">
+                <div class="col-twelve home-content__text pull-right desk" style="padding-top: 50px;">
                     <center><h1 style="font-weight: 500;">
                     Avondale Property Group
                     </h1></center>
@@ -67,6 +67,33 @@
                     </p>-->
 
                     <center><div class="home-content__subscribe">
+                        <form id="mc-form" class="group" novalidate="true">
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                            <input type="submit" name="subscribe" value="Notify Me">
+                            <label for="mc-email" class="subscribe-message"></label>
+                        </form>
+                    </div></center>
+                </div>
+                
+                
+                
+                <div class="col-twelve home-content__text pull-right moble" style="padding-top: 250px;">
+                    <center><h1 style="font-weight: 500;">
+                    Avondale Property Group
+                    </h1></center>
+                    <center><h4 style="color: #bbc3c8; margin-top: 0.8rem; margin-bottom: 4rem;">Website launching soon</h4></center>
+                    
+                    <center><h3>1300 xxx xxx xxx</h3></center>
+                    <center><h3>info@avondale.com</h3></center>
+                    
+                    
+                    
+
+                    <!--<p>
+                    Website launching soon
+                    </p>-->
+
+                    <center><div class="home-content__subscribe" style="padding-top: 30px;">
                         <form id="mc-form" class="group" novalidate="true">
                             <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
                             <input type="submit" name="subscribe" value="Notify Me">
@@ -228,6 +255,39 @@
     <script src="js/plugins.js"></script>
     <script src="js/polygons.js"></script>
     <script src="js/main.js"></script>
+    
+    
+    
+    <style>   
+        @media screen and (max-width : 1920px){
+          .moble{
+          /*visibility:hidden; PC */
+              display:none;
+          }
+        }
+         .single_facilities
+        {
+            padding-bottom: 10px;
+            padding-left: 5px;
+        }
+        @media screen and (max-width : 906px){
+         .desk{
+          /*visibility:hidden;*/
+             display:none;
+          }
+         .moble{
+          /*visibility:visible;*/
+             display: block;
+          }
+             .single_facilities
+        {
+            padding-bottom: 5px;
+            padding-left: 2px;
+        }
+        }
+       </style>
+    
+    
 
 </body>
 

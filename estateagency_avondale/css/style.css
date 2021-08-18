@@ -95,11 +95,11 @@ a:hover {
 }
 
 .color-d {
-  color: #adadad;
+  color: #166689;
 }
 
 .color-text-a {
-  color: #555555;
+  color: #3f474a;
 }
 
 .no-margin {
@@ -234,7 +234,7 @@ a:hover {
 }
 
 .section-t4 {
-  padding-top: 4rem;
+  padding-top: 0rem;
 }
 
 .section-t3 {
@@ -623,8 +623,8 @@ a:hover {
 
 .navbar-default.navbar-reduce {
   transition: all .5s ease-in-out;
-  padding-top: 19px;
-  padding-bottom: 19px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .navbar-default.navbar-reduce .nav-link {
@@ -663,14 +663,15 @@ a:hover {
   transition: all 0.5s cubic-bezier(0.3, 0.65, 0.355, 1) 0s, opacity 0.31s ease 0s, height 0s linear 0.36s;
   margin: 0;
   border-radius: 0;
-  padding: 12px 0;
+  padding: 4px 0;
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item {
-  padding: 12px 18px;
+  padding: 6px 12px;
   transition: all 500ms ease;
-  font-weight: 600;
-  min-width: 220px;
+  font-weight: 400;
+  font-size: 0.9rem;
+  /*min-width: 220px;*/
 }
 
 .navbar-default .dropdown .dropdown-menu .dropdown-item:hover {
@@ -705,7 +706,7 @@ a:hover {
 
 .navbar-toggler span {
   display: block;
-  background-color: #000000;
+  background-color: #053045;
   height: 3px;
   width: 25px;
   margin-top: 4px;
@@ -950,7 +951,7 @@ a:hover {
 /*------/ Intro Single /------*/
 
 .intro-single {
-  padding: 12rem 0 3rem;
+  padding: 8rem 0 3rem;
 }
 
 .intro-single .title-single-box {
@@ -1699,7 +1700,7 @@ footer .credits {
   }
 
   .navbar-default .dropdown .dropdown-menu {
-    border-top: 4px solid #166689;
+    border-top: 2px solid #166689;
     border-left: 0;
     display: block;
     position: absolute;

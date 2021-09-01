@@ -227,7 +227,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
       object-fit: cover;
       -o-object-position: center;
       object-position: center;
-      height: 750px;
+      height: auto;
       width: 100%; }
   .our-services--dots {
     position: absolute;
@@ -422,7 +422,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     bottom: 0;
     z-index: 0; }
     .case-study--right__imageslider img {
-      height: 750px;
+      height: auto;
       -o-object-position: center;
       object-position: center;
       -o-object-fit: cover;
@@ -444,7 +444,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     left: 0;
     width: 100%;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5);
+    /*background: rgba(0, 0, 0, 0.5);*/
     z-index: 0; }
   .statistics--item {
     position: relative;
@@ -863,7 +863,7 @@ a, a:hover, button, button:hover, .btnborder, .btntop {
     left: 0;
     width: 100%;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.6);
+    /*background: rgba(0, 0, 0, 0.6);*/
     z-index: 0; }
   .get-started .container {
     position: relative;
@@ -1301,7 +1301,7 @@ Slider
     justify-content: center; }
     .home-slider--wrapper__inner:before {
       content: "";
-      background: rgba(0, 0, 0, 0.7);
+      /*background: rgba(0, 0, 0, 0.7);*/
       position: absolute;
       left: 0;
       top: 0;
@@ -1458,7 +1458,7 @@ Slider
   position: relative; }
   .intro-page:before {
     content: "";
-    background: rgba(0, 0, 0, 0.7);
+    /*background: rgba(0, 0, 0, 0.7);*/
     position: absolute;
     left: 0;
     top: 0;

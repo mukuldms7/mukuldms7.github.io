@@ -39,16 +39,22 @@ h4,
 h5,
 h6 {
   text-transform: capitalize;
-  margin-bottom: 0.75rem;
+  /*margin-bottom: 0.75rem;*/
 }
 
 h1 a,
 h2 a,
 h3 a,
-h4 a,
 h5 a,
 h6 a {
   color: #242424;
+  transition-duration: 200ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+}
+
+h4 a {
+  color: #053045;
   transition-duration: 200ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -1339,7 +1345,7 @@ fieldset[disabled] .s-btn {
 }
 
 .s-header-bg-overlay.-is-open {
-  background: rgba(5, 48, 69, 0.99);
+  background: rgba(5, 48, 69, 0.8);
   visibility: visible;
   -webkit-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;

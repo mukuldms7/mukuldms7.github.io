@@ -911,7 +911,7 @@
 ------------------------------------*/
 .g-ver-center--xs {
   position: absolute;
-  top: 50%;
+  top: 25%;
   left: 0;
   right: 0;
   -webkit-transform: translate3d(0, -50%, 0);

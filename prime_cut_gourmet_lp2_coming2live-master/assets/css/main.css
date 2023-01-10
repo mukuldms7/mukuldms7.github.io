@@ -601,7 +601,7 @@ mark, .mark {
 
 @media (min-width: 1201px) {
     .service-wrapper .service {
-        width: 33.333333%;
+        width: 38%;
         float: left;
         padding: 0 55px;
     }
@@ -682,13 +682,13 @@ mark, .mark {
 
 @media (min-width: 1200px) {
     .hero__title {
-        font-size: 48px;
+        font-size: 34px;
     }
 }
 
 .hero__wrapper {
     position: relative;
-    padding: 120px 0 50px;
+    padding: 40px 0 50px;
     z-index: 99;
     min-height: 100vh;
 }
@@ -2027,6 +2027,6 @@ mark, .mark {
 
 @media (min-width: 1200px) {
     .countdown__module span {
-        font-size: 90px;
+        font-size: 60px;
     }
 }

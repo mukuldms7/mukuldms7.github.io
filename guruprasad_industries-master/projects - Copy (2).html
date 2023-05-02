@@ -68,17 +68,17 @@
         font-size: 12px;
     }
 
-    /* .fl-table thead th {
+    .fl-table thead th {
         color: #ffffff;
         background: #4FC3A1;
-    } */
+    }
 
     /* Responsive */
 
     @media (max-width: 767px) {
         .fl-table {
             display: block;
-            width: 95%;
+            width: 90%;
         }
         .table-wrapper:before{
             content: "Scroll horizontally >";
@@ -104,7 +104,7 @@
         }
         .fl-table td, .fl-table th {
             padding: 20px .625em .625em .625em;
-            height: 60px;
+            height: 100%;
             vertical-align: middle;
             box-sizing: border-box;
             overflow-x: hidden;
@@ -113,7 +113,10 @@
             font-size: 13px;
             text-overflow: ellipsis;
         }
-        
+        .fl-table thead th {
+            text-align: left;
+            border-bottom: 1px solid #f7f7f9;
+        }
         .fl-table tbody tr {
             display: table-cell;
         }
@@ -203,7 +206,6 @@
       </div>
       <div class="table-wrapper row justify-content-center mb-5">
         <table class="fl-table">
-          <thead>
           <tr>
             <th>Sr No</th>
             <th>Compound Name</th>
@@ -212,7 +214,6 @@
             <th>Masala / Flora Agarbatti</th>
             <th>Dhoop / Sambrani</th>
           </tr>
-          </thead>
           <tr>
             <td>1</td>
             <td>Dark Mogra</td>
@@ -585,7 +586,6 @@
       </div>
       <div class="table-wrapper row justify-content-center mb-5">
         <table class="fl-table">
-          <thead>
           <tr>
             <th>Sr No</th>
             <th>Compound Name</th>
@@ -594,7 +594,6 @@
             <th>Masala / Flora Agarbatti</th>
             <th>Dhoop / Sambrani</th>
           </tr>
-          </thead>
           <tr>
             <td>1</td>
             <td>Drakkar Gold</td>

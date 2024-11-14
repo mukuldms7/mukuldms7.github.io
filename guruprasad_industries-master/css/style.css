@@ -7289,7 +7289,7 @@ a {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
-  color: #000;
+  color: #121212;
   line-height: 1.5;
   font-family: "Montserrat", sans-serif;
   font-weight: 900; }
@@ -7730,7 +7730,7 @@ header {
     font-weight: 300; }
 
 .heading {
-  color: #000; }
+  color: #121212; }
   .heading.border-bottom {
     position: relative;
     padding-bottom: 30px; }

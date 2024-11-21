@@ -7551,7 +7551,7 @@ header {
       -o-transition: .3s all ease;
       transition: .3s all ease; }
       .home-slider.home-slider .owl-nav button {
-        color: #fff; }
+        color: #fdce8b; }
     .home-slider.home-slider:focus .owl-nav, .home-slider.home-slider:hover .owl-nav {
       opacity: 1;
       visibility: visible; }
@@ -7580,7 +7580,7 @@ header {
         -webkit-transition: .3s all ease;
         -o-transition: .3s all ease;
         transition: .3s all ease;
-        background: white !important;
+        background: #fdce8b !important;
         opacity: .5; }
         .home-slider.home-slider .owl-dots .owl-dot span {
           background: none !important; }
@@ -7632,14 +7632,14 @@ header {
     top: 0;
     height: 500px;
     width: 100%;
-    background: black;
+    /* background: black;
     background: -moz-linear-gradient(top, black 0%, rgba(145, 232, 66, 0) 100%);
     background: -webkit-gradient(left top, left bottom, color-stop(0%, black), color-stop(100%, rgba(145, 232, 66, 0)));
     background: -webkit-linear-gradient(top, black 0%, rgba(145, 232, 66, 0) 100%);
     background: -o-linear-gradient(top, black 0%, rgba(145, 232, 66, 0) 100%);
     background: -ms-linear-gradient(top, black 0%, rgba(145, 232, 66, 0) 100%);
     background: -webkit-gradient(linear, left top, left bottom, from(black), to(rgba(145, 232, 66, 0)));
-    background: linear-gradient(to bottom, black 0%, rgba(145, 232, 66, 0) 100%);
+    background: linear-gradient(to bottom, black 0%, rgba(145, 232, 66, 0) 100%); */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#91e842', GradientType=0 ); }
   .slider-item .slider-text {
     color: #fff;
